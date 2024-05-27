@@ -1,7 +1,7 @@
-const express = require('express');
-const productRouter = express.Router();
-const {pool} = require('./server');
+// const express = require('express');
+// const productRouter = express.Router();
+// const {pool} = require('./server');
 
 
 
-module.exports = productRouter;
+// module.exports = productRouter;
