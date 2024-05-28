@@ -6,13 +6,6 @@ const cors = require('cors');
 const partials = require('express-partials');
 const { Pool } = require('pg');
 const session = require('express-session');
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
-const passport = require('passport');
-const LocalStrategy = require('passport-local').Strategy;
-const router = express.Router();
-const moment = require('moment');
-const joi = require('joi');
 const {ensureAuthenticated} = require('./helpers');
 
 const store = new session.MemoryStore();
